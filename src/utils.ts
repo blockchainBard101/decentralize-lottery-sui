@@ -6,4 +6,4 @@ export const PUBLISHER = "0xb77a1dab9e48a3a9ea5747889eb25c2ca2460d62b6110ce0270c
 
 export const suiClient = new SuiClient({ url: getFullnodeUrl("testnet") });
 
-export const apiUrl = "https://decentralized-lottery-backend.onrender.com"
+export const apiUrl = "https://decentralized-lottery-backend.onrender.com/lotteries"

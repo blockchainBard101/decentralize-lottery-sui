@@ -80,7 +80,7 @@ const LotteryCreation: React.FC<LotteryCreationProps> = ({ onCreated }) => {
             pricePool: 0
         };
         try {
-            const response = await axios.post(`${apiUrl}/lotteries/createLottery`, {
+            const response = await axios.post(`${apiUrl}/createLottery`, {
                 ...lotteryData,
                 ticketPrice: lotteryData.ticketPrice.toString()
             });

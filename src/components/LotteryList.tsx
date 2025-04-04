@@ -29,7 +29,7 @@ const LotteryList: React.FC<LotteryListProps> = ({ onSelectLottery }) => {
   useEffect(() => {
     const fetchLotteries = async () => {
       try {
-        const response = await axios.get(`${apiUrl}/lotteries`);
+        const response = await axios.get(`${apiUrl}`);
         // console.log(response.data);
         const formattedLotteries = response.data.map((lottery: any) => ({
           id: lottery.id,
