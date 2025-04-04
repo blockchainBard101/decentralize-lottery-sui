@@ -96,31 +96,6 @@ Make sure to:
 
 ---
 
-## 📸 Screenshots
-
-Coming soon...
-
----
-
-## ❗Known Issues
-
-- Wallet disconnection does not reset state
-- Smart contract calls assume correct formatting of inputs
-- Minimal error handling on some async API responses
-
----
-
-## 📅 Roadmap
-
-- ✅ NFT Ticket Minting
-- ✅ On-chain Winner Determination
-- 🚧 Lottery Creation via frontend
-- 🚧 UI/UX improvements
-- 🚧 Support for multiple lotteries
-- 🚧 Sui Mainnet deployment
-
----
-
 ## 🧑‍💻 Contributing
 
 PRs are welcome! Open an issue to discuss changes or bugs before starting a major refactor.
@@ -129,4 +104,4 @@ PRs are welcome! Open an issue to discuss changes or bugs before starting a majo
 
 ## 📜 License
 
-MIT © Your Name
+MIT © blockchainBard
