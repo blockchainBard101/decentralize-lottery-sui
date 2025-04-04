@@ -88,7 +88,7 @@ const LotteryDetails: React.FC<LotteryDetailsProps> = ({ lottery }) => {
     const fetchLotteryData = async () => {
       // console.log(lottery, account);
       try {
-        const tickets = await axios.get(`${apiUrl}/${lottery.id}/tickets`);
+        const tickets = await axios.get(`${apiUrl}/lotteries/${lottery.id}/tickets`);
         const fetchedTickets = tickets.data.map((ticket : any) => ({
           id: ticket.id,
           number: ticket.ticketNumber,
